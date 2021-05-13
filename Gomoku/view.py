@@ -142,7 +142,6 @@ class Board:
         msgbox.showinfo("About", (
             "This is a simple Gomoku.\n"
             "Wish you a happy game!\n"
-            "Author: guiqiqi187@gmail.com"
         ))
 
     def win(self, who, pieces: Iterable[Tuple[int, int]]) -> None:
